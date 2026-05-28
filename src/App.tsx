@@ -6,6 +6,7 @@
 import Hero from './components/Hero';
 import WebsiteServices from './components/WebsiteServices';
 import VideoServices from './components/VideoServices';
+import Portfolio from './components/Portfolio';
 import Payment from './components/Payment';
 import Footer from './components/Footer';
 import FloatingWhatsApp from './components/FloatingWhatsApp';
@@ -16,6 +17,7 @@ export default function App() {
       <Hero />
       <WebsiteServices />
       <VideoServices />
+      <Portfolio />
       <Payment />
       <Footer />
       <FloatingWhatsApp />
