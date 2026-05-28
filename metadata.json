@@ -1,0 +1,6 @@
+{
+  "name": "HADIGITAL",
+  "description": "Digital Solutions & Innovation Agency",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
