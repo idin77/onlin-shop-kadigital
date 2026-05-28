@@ -6,7 +6,6 @@ export default function Payment() {
         
         <div className="flex justify-center gap-8 mb-8 text-2xl font-bold text-slate-300">
           <p>DANA</p>
-          <p>ShopeePay</p>
         </div>
         
         <p className="text-xl text-slate-400 mb-8">Nomor Pembayaran: <span className="font-bold text-white tracking-widest text-2xl">085716551653</span></p>
