@@ -4,6 +4,7 @@
  */
 
 import Hero from './components/Hero';
+import Promotion from './components/Promotion';
 import WebsiteServices from './components/WebsiteServices';
 import VideoServices from './components/VideoServices';
 import Portfolio from './components/Portfolio';
@@ -15,6 +16,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-slate-950">
       <Hero />
+      <Promotion />
       <WebsiteServices />
       <VideoServices />
       <Portfolio />
