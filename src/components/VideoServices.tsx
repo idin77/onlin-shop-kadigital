@@ -31,7 +31,7 @@ export default function VideoServices() {
         <p>“Kontrak bulanan untuk order rutin tersedia harga khusus”</p>
       </div>
       
-      <div className="bg-slate-900/30 border border-slate-700/50 p-8 rounded-2xl max-w-2xl mx-auto">
+      <div className="bg-slate-900/30 border border-slate-700/50 p-8 rounded-2xl max-w-2xl mx-auto mb-12">
         <h4 className="font-bold text-slate-100 mb-4 text-center">FITUR VIDEO SUDAH TERMASUK</h4>
         <div className="grid grid-cols-2 gap-4 text-sm text-slate-300">
           <p>• Skrip & Konsep</p>
@@ -40,6 +40,23 @@ export default function VideoServices() {
           <p>• 2 Lagu Tentang Video</p>
           <p className="col-span-2 text-center text-slate-400 italic">Estimasi selesai 1 hari kerja</p>
         </div>
+      </div>
+
+      <h3 className="font-display text-2xl font-bold text-center mb-8 text-slate-100">
+        Contoh Video Promosi
+      </h3>
+      <div className="grid md:grid-cols-3 gap-6">
+        {['vqpMvS8jsQg', 'uQJwDikpQm8', 'LUp9VHmas-4'].map((id) => (
+          <div key={id} className="aspect-video">
+            <iframe
+              className="w-full h-full rounded-xl border border-slate-700"
+              src={`https://www.youtube.com/embed/${id}`}
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+        ))}
       </div>
     </section>
   );

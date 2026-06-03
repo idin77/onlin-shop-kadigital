@@ -6,6 +6,8 @@
 import Hero from './components/Hero';
 import Promotion from './components/Promotion';
 import WebsiteServices from './components/WebsiteServices';
+import WebsiteBenefits from './components/WebsiteBenefits';
+import TargetAudience from './components/TargetAudience';
 import VideoServices from './components/VideoServices';
 import Portfolio from './components/Portfolio';
 import Payment from './components/Payment';
@@ -18,6 +20,8 @@ export default function App() {
       <Hero />
       <Promotion />
       <WebsiteServices />
+      <WebsiteBenefits />
+      <TargetAudience />
       <VideoServices />
       <Portfolio />
       <Payment />

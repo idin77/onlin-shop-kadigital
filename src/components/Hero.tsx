@@ -13,18 +13,18 @@ export default function Hero() {
       <motion.h1 
         initial={{opacity: 0, y: 20}}
         animate={{opacity: 1, y: 0}}
-        className="font-display text-5xl md:text-7xl font-bold mb-6 text-slate-100 relative z-10"
+        className="font-display text-4xl md:text-6xl font-bold mb-6 text-slate-100 relative z-10"
       >
-        Jasa Website & Video <span className="text-cyan-400">Animasi Realistis</span> Profesional
+        Buat Website Profesional, Gratis Video Iklan 60 Detik Senilai <span className="text-cyan-400">Rp490.000</span>
       </motion.h1>
       
       <motion.p 
         initial={{opacity: 0, y: 20}}
         animate={{opacity: 1, y: 0}}
         transition={{delay: 0.2}}
-        className="text-lg md:text-xl text-slate-400 mb-10 max-w-2xl relative z-10"
+        className="text-lg md:text-xl text-slate-400 mb-10 max-w-3xl relative z-10"
       >
-        HADIGITAL membantu bisnis tampil lebih profesional dengan website modern dan video promosi realistis berkualitas tinggi.
+        Tingkatkan kepercayaan bisnis Anda dengan website modern dan video promosi yang siap digunakan untuk Facebook, Instagram, WhatsApp, dan Google Business.
       </motion.p>
       
       <motion.div 
