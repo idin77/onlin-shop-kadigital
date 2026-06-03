@@ -1,14 +1,19 @@
 import {motion} from 'motion/react';
+import heroBg from '../assets/images/hero_background_1780511849489.png';
 
 export default function Hero() {
   return (
     <section className="relative min-h-[90vh] flex flex-col items-center justify-center text-center p-6 overflow-hidden">
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-cyan-900/40 via-slate-950 to-slate-950 pointer-events-none" />
+      <div 
+        className="absolute inset-0 bg-cover bg-center pointer-events-none"
+        style={{ backgroundImage: `url(${heroBg})`, opacity: 0.3 }}
+      />
+      <div className="absolute inset-0 bg-slate-950/80 pointer-events-none" />
       
       <motion.h1 
         initial={{opacity: 0, y: 20}}
         animate={{opacity: 1, y: 0}}
-        className="font-display text-5xl md:text-7xl font-bold mb-6 text-slate-100"
+        className="font-display text-5xl md:text-7xl font-bold mb-6 text-slate-100 relative z-10"
       >
         Jasa Website & Video <span className="text-cyan-400">Animasi Realistis</span> Profesional
       </motion.h1>
@@ -17,7 +22,7 @@ export default function Hero() {
         initial={{opacity: 0, y: 20}}
         animate={{opacity: 1, y: 0}}
         transition={{delay: 0.2}}
-        className="text-lg md:text-xl text-slate-400 mb-10 max-w-2xl"
+        className="text-lg md:text-xl text-slate-400 mb-10 max-w-2xl relative z-10"
       >
         HADIGITAL membantu bisnis tampil lebih profesional dengan website modern dan video promosi realistis berkualitas tinggi.
       </motion.p>
@@ -26,7 +31,7 @@ export default function Hero() {
         initial={{opacity: 0, scale: 0.9}}
         animate={{opacity: 1, scale: 1}}
         transition={{delay: 0.4}}
-        className="flex gap-4"
+        className="flex gap-4 relative z-10"
       >
         <a href="#payment" className="bg-cyan-500 hover:bg-cyan-400 text-slate-950 px-8 py-3 rounded-full font-bold transition-all hover:shadow-[0_0_20px_rgba(34,211,238,0.5)]">
           Pesan Sekarang

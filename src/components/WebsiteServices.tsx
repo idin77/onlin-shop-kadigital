@@ -5,19 +5,19 @@ const websites = [
     title: 'PAKET SILVER', 
     price: 'Rp 700.000', 
     desc: 'Solusi cepat & hemat bagi UMKM untuk mulai online profesional.',
-    features: ['Desain modern & responsif', 'Maksimal 5 halaman', 'Domain gratis 1 tahun', 'Hosting 1 tahun', 'SSL Certificate', 'Revisi 2x']
+    features: ['Desain modern & responsif', 'Maksimal 5 halaman', 'Gratis domain web.id 1 tahun', 'Hosting 1 tahun', 'SSL Certificate', 'Revisi 2x', 'Biaya perpanjangan: Rp 500.000/tahun']
   },
   {
     title: 'PAKET GOLD', 
     price: 'Rp 1.600.000', 
     desc: 'Desain custom premium dengan optimasi konversi penjualan maksimal.',
-    features: ['Desain premium & custom', 'Maksimal 10 halaman', 'Domain gratis 1 tahun', 'Hosting 1 tahun', 'SSL Certificate', 'Revisi unlimited', 'Optimasi SEO Dasar', 'Support Integrasi WA Chat']
+    features: ['Desain premium & custom', 'Maksimal 10 halaman', 'Gratis domain .com 1 tahun', 'Hosting 1 tahun', 'SSL Certificate', 'Revisi unlimited', 'Biaya perpanjangan: Rp 600.000/tahun', 'Optimasi SEO Dasar', 'Support Integrasi WA Chat']
   },
   {
     title: 'PAKET PLATINUM', 
     price: 'Rp 3.000.000', 
     desc: 'Sistem web tingkat lanjut terintegrasi fitur khusus fungsional.',
-    features: ['Desain eksklusif & advanced', 'Unlimited halaman', 'Domain gratis 1 tahun', 'Hosting premium 1 tahun', 'SSL Certificate', 'Maintenance 3 bulan', 'Prioritas Layanan Teknis', 'Garansi Server 99.9% Uptime']
+    features: ['Desain eksklusif & advanced', 'Unlimited halaman', 'Gratis domain .com / .co.id 1 tahun', 'Hosting premium 1 tahun', 'SSL Certificate', 'Biaya perpanjangan: Rp 1.000.000/tahun', 'Maintenance 3 bulan', 'Prioritas Layanan Teknis', 'Garansi Server 99.9% Uptime']
   },
 ];
 
